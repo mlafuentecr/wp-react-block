@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/bracket-contest-mlb",
+	"version": "0.1.0",
+	"title": "Bracket Contest mlb",
+	"category": "widgets",
+	"icon": "smiley",
+	"attributes": {
+		"Bracket_Title": {
+				"type": "string"
+		},
+		"mySetting": {
+			"type": "string"
+		},
+		"fontSize": {
+			"type": "string"
+		},
+		"contentSelector": {
+			"type": "string"
+	}
+},
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "bracket-contest-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
